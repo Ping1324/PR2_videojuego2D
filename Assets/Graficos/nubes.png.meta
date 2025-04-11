@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f84856f827db6344eae85526889e52d7
+guid: 16aac5c73d3b79548a84e4609da72c29
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground-Additional_0
+      name: nubes_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 323
-        width: 320
-        height: 320
+        x: 30
+        y: 438
+        width: 322
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5059dc4470da6d45b8f05c834b7f1d9
-      internalID: 1184266282
+      spriteID: 78f19098064d3a84c9ca49b578776182
+      internalID: -441750400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground-Additional_1
+      name: nubes_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 323
-        width: 284
-        height: 305
+        x: 386
+        y: 489
+        width: 256
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9bbd406ba2bcce4ebdeacef3aefe12d
-      internalID: -1172320644
+      spriteID: 87416cd8405abde4285c65f9bfa723ce
+      internalID: 1327107821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground-Additional_2
+      name: nubes_9
       rect:
         serializedVersion: 2
-        x: 653
-        y: 323
-        width: 120
-        height: 301
+        x: 347
+        y: 311
+        width: 295
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aac4027a5fc631949b48a4bd75373e92
-      internalID: -814998659
+      spriteID: 4cd1908f71faa8d44ad139f89b7b1c96
+      internalID: 254270846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground-Additional_3
+      name: nubes_10
       rect:
         serializedVersion: 2
-        x: 775
-        y: 323
-        width: 320
-        height: 301
+        x: 27
+        y: 167
+        width: 294
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd201aa3695ae6b4ca70e28debc3f306
-      internalID: -1646541320
+      spriteID: b7d2f61e3effce144989d3aa5e3ac969
+      internalID: 972218173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground-Additional_4
+      name: nubes_11
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1
-        width: 306
-        height: 303
+        x: 399
+        y: 138
+        width: 243
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2916aba885bcb4a9276b9ef4ac5813
-      internalID: -1564445983
+      spriteID: da5224b9a92448f4aa8f1a3e65c9fb17
+      internalID: -889585361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground-Additional_5
+      name: nubes_24
       rect:
         serializedVersion: 2
-        x: 330
-        y: 1
-        width: 302
-        height: 303
+        x: 256
+        y: 112
+        width: 113
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 908aebd1a7738414f9d075369da8d8fd
-      internalID: 1238919797
+      spriteID: 26661f86d318922459e70502a2594a60
+      internalID: -738498916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground-Additional_6
+      name: nubes_25
       rect:
         serializedVersion: 2
-        x: 645
-        y: 1
-        width: 121
-        height: 301
+        x: 53
+        y: 35
+        width: 236
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fed3fd3df98ee04fa19974a0075382d
-      internalID: -1465589781
+      spriteID: a2569dbdbcc78bf42b665d0ae7ae1297
+      internalID: 117748037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nubes_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 35
+        width: 178
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31719843ec3c3d41bf0552df8c05e42
+      internalID: -1332581377
       vertices: []
       indices: 
       edges: []
@@ -254,13 +275,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ground-Additional_0: 1184266282
-      Ground-Additional_1: -1172320644
-      Ground-Additional_2: -814998659
-      Ground-Additional_3: -1646541320
-      Ground-Additional_4: -1564445983
-      Ground-Additional_5: 1238919797
-      Ground-Additional_6: -1465589781
+      nubes_0: -441750400
+      nubes_1: 1327107821
+      nubes_10: 972218173
+      nubes_11: -889585361
+      nubes_12: 80855719
+      nubes_13: -181897507
+      nubes_14: 193202122
+      nubes_15: 646879499
+      nubes_16: 654205863
+      nubes_17: -1661200480
+      nubes_18: -41465333
+      nubes_19: 1316216379
+      nubes_2: -558270511
+      nubes_20: -1055741394
+      nubes_21: 238723034
+      nubes_22: -1799458920
+      nubes_23: -562315492
+      nubes_24: -738498916
+      nubes_25: 117748037
+      nubes_26: -1332581377
+      nubes_3: -282737120
+      nubes_4: -818333313
+      nubes_5: -1913589010
+      nubes_6: 1669823947
+      nubes_7: 389340880
+      nubes_8: 181368213
+      nubes_9: 254270846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

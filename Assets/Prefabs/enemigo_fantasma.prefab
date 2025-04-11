@@ -100,6 +100,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaFantasma: 10
+  velocidad: 2
+  limiteDerecha: 3
+  limiteIzquierda: 3
+  distanciaAtaque: 5
+  distanciaPatrol: 15
+  velocidadAtaque: 2
 --- !u!70 &4255150268651861288
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -143,7 +149,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5345743613935940296}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

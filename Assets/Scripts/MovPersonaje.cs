@@ -7,9 +7,9 @@ using UnityEngine;
 
 public class MovPersonaje : MonoBehaviour
 {
-    public float velocidad = 6f;
+    public float velocidad = 5f;
     public float multiplicador = 5f;
-    public float multiplicadorSalto = 6f; //Controla la fuerza del salto.
+    public float multiplicadorSalto = 5f; //Controla la fuerza del salto.
     private bool puedoSaltar = true;
     private Rigidbody2D rb; //clase de tipo rigidbody2d
     private Animator animatorController;
@@ -46,7 +46,7 @@ public class MovPersonaje : MonoBehaviour
 
 
         // ***MOV IZQ <--- ***//
-        //* imput.get axit devuelve valores negativos o positivios, por ello si es <0 mirara a la izquierda y la drección de la bala será hacia la izq//
+        //* imput.get axit devuelve valores negativos o positivos, por ello si es <0 mirara a la izquierda y la drección de la bala será hacia la izq//
         if (movTeclas < 0)
         {
             this.GetComponent<SpriteRenderer>().flipX = true; 
