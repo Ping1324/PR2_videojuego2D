@@ -6,20 +6,18 @@ public class Goals : MonoBehaviour
 {
      
     public int valor = 1;
+    GameObject audioManajerObj;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioManajerObj = GameObject.Find("AudioManajerObj");
     }
-
     // Update is called once per frame
     void Update()
     {
         
     }
-
-    
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -29,9 +27,15 @@ public class Goals : MonoBehaviour
 
             this.GetComponent<Animator>().SetBool("destruirMoneda", true);
 
-             Destroy(this.gameObject, 1.0f);
-              // hace referencia al mismo script
-        }
-    }
+        
+            AudioManagerScript.Instance.SuenaClip(AudioManagerScript.Instance.moneda);
 
-}
+             Destroy(this.gameObject, 1.0f);
+              // hace referencia al mismo script y se destruye en 1segundo
+        }
+
+    }
+    
+    } 
+
+

@@ -27,6 +27,9 @@ public class FantasmaScript : MonoBehaviour
     public float distanciaAtaque = 5f;
     public float distanciaPatrol = 15;
     public float velocidadAtaque = 2f;
+
+
+    AudioSource fantasmaAudioManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +44,9 @@ public class FantasmaScript : MonoBehaviour
 
         player = GameObject.FindWithTag("Player");
 
-
+        fantasmaAudioManager = this.GetComponent<AudioSource>();
+      
+               
     }
 
     // Update is called once per frame
@@ -108,6 +113,18 @@ public class FantasmaScript : MonoBehaviour
             (transform.position, player.transform.position, velocidadAtaque *Time.deltaTime
             );
 
+            // if( AudioManagerScript.Instance.m_audioSource.isPlaying == false){
+            //       AudioManagerScript.Instance.SuenaClip(AudioManagerScript.Instance.s_Fantasma);
+            // }
+          
+            // ** sonido que se activa cuando está en estado de ataque
+        //     if(fantasmaAudioManager.isPlaying == false){
+        //     fantasmaAudioManager.PlayOneShot(AudioManagerScript.Instance.s_Fantasma);
+        // }
+          if(fantasmaAudioManager.isPlaying == false){
+          fantasmaAudioManager.PlayOneShot(AudioManagerScript.Instance.s_Fantasma);
+         }
+
             // ***fantasma gira en el ataque
             if(player.transform.position.x <= transform.position.x){
                 this.GetComponent<SpriteRenderer>().flipX = false;
@@ -131,6 +148,7 @@ public class FantasmaScript : MonoBehaviour
         if(col.gameObject.tag == "Player"){
             
             GameManager.vidas -= 1;
+
         }
     }
 
