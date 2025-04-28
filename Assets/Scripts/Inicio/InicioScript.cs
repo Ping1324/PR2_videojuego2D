@@ -28,7 +28,7 @@ public class InicioScript : MonoBehaviour
 
 
     public void InicioStart(){
-        SceneManager.LoadScene("Escena1");
+        SceneManager.LoadScene("3_Lobby01");
     }
 
     public void MuestraSettings(){

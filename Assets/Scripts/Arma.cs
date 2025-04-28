@@ -14,7 +14,7 @@ public class Arma : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //*al pulsar tecla e, se clona desde la posición del jugador, para no rotarlo se añade quaternion.identity
         if(Input.GetKeyDown(KeyCode.E)){
             Instantiate(bala, transform.position, Quaternion.identity);
             // Quaternion.identity es la rotacion que tenga la bola

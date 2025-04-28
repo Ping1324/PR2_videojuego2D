@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3302454289637055597
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1542317308312453666, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 336dd3cc05a2bc64e9fc1e06ae9490e4, type: 3}
+    - target: {fileID: 1542317308312453666, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.38431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542317308312453666, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7229251
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542317308312453666, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542317308312453666, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180181834616883121, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20804086
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180181834616883121, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20804086
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180181834616883121, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.20804086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2240694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5013763
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329106119836648470, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681781762991725534, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_Name
+      value: CartelInteractuar Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6681781762991725534, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8031476213086474644, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216940153098195953, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: "\xBFEst\xE1s prepaado? Presiona F en la cueva"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2af3abad9e7908c4e8b43137470fb83d, type: 3}

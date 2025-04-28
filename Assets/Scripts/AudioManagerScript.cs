@@ -9,6 +9,9 @@ public class AudioManagerScript : MonoBehaviour
     public AudioClip moneda;
     public AudioClip s_Fantasma;
 
+    public GameObject musicObj; 
+
+    AudioSource audioMusic;
 
     public static AudioManagerScript Instance;
     // Start is called before the first frame update
@@ -29,9 +32,12 @@ public class AudioManagerScript : MonoBehaviour
     {
       m_audioSource = GetComponent<AudioSource>(); 
 
+
+      audioMusic = musicObj.GetComponent<AudioSource>();
+      
       //* cuando comience el juego el clip va a ser la banda sonora
-      m_audioSource.clip = bandaSonora;
-      m_audioSource.Play();
+      audioMusic.clip = bandaSonora;
+      audioMusic.Play();
     
     }
    
